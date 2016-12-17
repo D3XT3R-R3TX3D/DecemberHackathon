@@ -1,3 +1,105 @@
-body{
-    background-color:blue
+body{ 
+    background-image: url("pics/background.jpg");
+    }
+h1 {
+    text-align: center;
+    text-shadow:4px 4px black;
+    font-weight: bolder;
+    font-size:80px;
+    color: #6C5693;
+    
+}
+button {
+    font-size: 20px;
+    float: left;
+}
+.center {
+    float: none;
+    margin-top:150px;
+    width: 70;
+    border: 9px solid black;
+    padding: 10px;
+}
+.butrekt{
+  margin-left: 121px;
+    margin-top: 1px;
+    border: none;
+    color: white;   
+    font-size:14px;
+    font-weight:700;
+    text-align:center;
+}   
+
+audio{ display: none
+}
+
+p{
+    text-align: center;
+}
+#quotetext {
+    font-size: 65px;
+    background:rgba(89,188,195,0.5);
+    width: 75%;
+    margin:0 auto;
+    margin-top:200px;
+    padding:50px;
+    
+}
+#Music {  
+    margin-left: 121px;
+    margin-top: 1px;
+    width: 98.1px;
+    height: 45px;
+    border: none;
+    color: #6C5693;   
+    font-size:30px;
+    font-weight:700;
+}
+#Quotes {  
+    margin-left: 121px;
+    margin-top: 1px;
+    width: 115px;
+    height: 45px;  
+    border: none;
+    color: #6C5693;   
+    font-size:30px;
+    font-weight:700;
+}
+#MusicQuotes {  
+    margin-left: 121px;
+    margin-top: 1px;
+    width: 250px;
+    height: 80px;  
+    border: none;
+    color: #6C5693;   
+    font-size:30px;
+    font-weight:700;
+}
+#Music {
+    position:relative;
+    transition: .5s ease;
+    top: 40px;
+    left: 300px;
+    right: -100px;
+    bottom: -100px;
+}
+
+#Quotes {
+    position:relative;
+    transition: .5s ease;
+    top: 40px;
+    left: 355px;
+    right: -100px;
+    bottom: -100px;
+}
+
+#MusicQuotes {
+    position:relative;
+    transition: .5s ease;
+    top: 40px;
+    left: 380px;
+    right: -100px;
+    bottom: -100px;
+}
+audio{ display: none
 }
